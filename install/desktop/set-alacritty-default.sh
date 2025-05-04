@@ -4,7 +4,7 @@
 sudo ln -sf /usr/bin/alacritty /usr/bin/x-terminal-emulato
 
 # Adding alacritty to nautilus contextual menu requires the python wrapper for the libraries
-sudo apt install -y python3-nautilus
+sudo yay -S --noconfirm python-nautilus
 mkdir -p ~/.local/share/nautilus-python/extensions/
 
 cat >~/.local/share/nautilus-python/extensions/open-alacritty.py <<TECHNICALLYNOTACONFIGSOHEREDOCCEDITIS
